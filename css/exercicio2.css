@@ -1,0 +1,72 @@
+
+
+#fundo{
+    position: relative;
+    width:100%;
+    height:auto;
+    background-color: rgb(8, 8, 241);
+    margin: auto; /*deixa sempre no meio*/
+}
+#div1{
+    position: relative;
+    width:100%;
+    height:100px;
+    background-color: blue;
+    text-align: center;
+    float: left;
+}
+#div2{
+    position: relative;
+    width:70%;
+    height:100px;
+    background-color: rgb(255, 0, 4);
+    text-align: center;
+    float: left;
+}
+#div3{
+    position: relative;
+    width:100%;
+    height:50px;
+    background-color: rgb(5, 247, 54);
+    text-align: center;
+    clear: left;
+}
+#div4{
+    position: relative;
+    width:100%;
+    height:500px;
+    background-color: rgb(237, 249, 7);
+    text-align: center;
+    border: 10px solid red;
+    box-sizing: border-box; /* internaliza as bordas do componente*/
+}
+#div5{
+    position: relative;
+    width:100%;
+    height:50px;
+    background-color: rgb(76, 76, 83);
+    text-align: center;
+}
+#absoluta1{
+    position: absolute;
+    width:200px;
+    height: 200px;
+    background-color: rgb(71, 247, 7);
+    color: aliceblue;
+    top:0px;
+    left:0px;
+    text-align: center;
+    z-index: 2;
+
+}
+#absoluta2{
+    position: absolute;
+    width:200px;
+    height: 200px;
+    background-color: black;
+    color: aliceblue;
+    top:0px;
+    left:0px;
+    text-align: center;
+    z-index: 2;
+}
